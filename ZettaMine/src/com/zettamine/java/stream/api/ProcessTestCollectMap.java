@@ -11,8 +11,8 @@ public class ProcessTestCollectMap
 		
 		List<String> courses = Arrays.asList("Java","Spring","advance java","Spring boot","Microservices","Spring Maven");
 		
-		courses.stream().map(st-> String.format("%-13s - %d", st.toUpperCase(),st.length())).collect(Collectors.toList()).forEach(System.out::println);
-		
+		//courses.stream().map(st-> String.format("%-13s - %d", st.toUpperCase(),st.length())).collect(Collectors.toList()).forEach(System.out::println);
+		courses.stream().distinct();
 //		for (String course: newCurses)
 //		{
 //			System.out.println(course);

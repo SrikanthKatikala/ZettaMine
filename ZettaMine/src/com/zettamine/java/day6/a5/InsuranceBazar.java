@@ -1,5 +1,17 @@
 package com.zettamine.java.day6.a5;
 
-public class InsuranceBazar {
+import java.util.HashMap;
 
+public class InsuranceBazar {
+	public HashMap<Integer, String> insurencePolicy ;
+	
+	public void addPolicuDetails() {
+		
+
+	}
+	
+	public Integer searchBasedOnPolicyType(String policyName)
+	{
+		return 0;
+	}
 }
